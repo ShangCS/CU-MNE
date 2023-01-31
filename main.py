@@ -10,7 +10,7 @@ def parse_args():
 
     parser.add_argument('--hid_units', type=int, default=128, help='embedding dimension')
 
-    parser.add_argument('--dataset', nargs='?', default='amazon', help='Datasets: acm, imdb, amazon')
+    parser.add_argument('--dataset', nargs='?', default='acm', help='Datasets: acm, imdb, amazon')
     parser.add_argument('--sc', type=float, default=1.0, help='GCN self connection')
     parser.add_argument('--sparse', type=bool, default=True, help='sparse adjacency matrix')
     parser.add_argument('--t', type=float, default=1.0, help='Sim function parameter')
