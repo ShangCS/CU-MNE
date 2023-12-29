@@ -30,5 +30,12 @@ Each dataset is a dictionary containing the following keys:
 Please cite our paper if you find the code useful for your research.
 
 ```
-
+@inproceedings{shang2023common,
+  title={Common and Unique Features Learning in Multi-view Network Embedding},
+  author={Shang, Yifan and Ye, Xiucai and Sakurai, Tetsuya},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2023},
+  organization={IEEE}
+}
 ```
